@@ -41,8 +41,8 @@ public class Versus {
 			cpu_Value="보";
 		}
 		
-		System.out.println("플레이어" + player_Value);
-		System.out.println("컴퓨터" + cpu_Value);
+		System.out.println("플레이어의 입력값 : " + player_Value);
+		System.out.println("컴퓨터의 값 : " + cpu_Value);
 		
 		PLAY.RPS(player_value_const, cpu_random_value);
 	}
